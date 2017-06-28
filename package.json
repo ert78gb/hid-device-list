@@ -1,0 +1,29 @@
+{
+  "private": false,
+  "name": "hid-device-list",
+  "version": "1.0.0",
+  "description": "List the HID devices to the console",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HID",
+    "devices"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ert78gb/hid-device-list.git"
+  },
+  "engines": {
+    "node" : ">=6.0.0 <8.0.0"
+  },
+  "author": "Robert Kiss <ert78gb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^4.0.6",
+    "jsonfile": "^3.0.0",
+    "node-hid": "^0.5.4"
+  }
+}
