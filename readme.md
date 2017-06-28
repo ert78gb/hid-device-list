@@ -6,7 +6,7 @@ List HID devices to the console.
 [node-hid](https://github.com/node-hid/node-hid) not works with node >= 8.0.0
 [issue](https://github.com/node-hid/node-hid/issues/209)
 
-##Usage
+## Usage
 Installation
 
 ```bash
